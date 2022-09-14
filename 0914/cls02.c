@@ -13,7 +13,7 @@ int main(void)
 			printf("%d*%d=%d\n", j, i, j * i);
 		}
 		printf("아무키나 누르시오.\n");
-		getch();
+		_getch();
 	}
 	return 0;
 }
