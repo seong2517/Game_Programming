@@ -1,55 +1,82 @@
 #include <stdio.h>
-#include <string.h>
-#include <ctype.h>
+#define MAX 100
 
-void Palindrome(char string[]);
-void RemoveSpace(char* str);
-
-int main()
+typedef struct Stack
 {
-	char string[100];
-	int leng = 0;
-
-	printf("문자열을 입력하세요:");
-	gets(string);
-	RemoveSpace(string);
-	Palindrome(string);
-	return 0;
+	char word[MAX];
+	int top;
+}Stack;
+void init(Stack* S)
+{
+	S->top = -1;
 }
-
-void Palindrome(char string[])
+int full(Stack* S)
 {
-	int i;
-	int j = 0;
-	int length;
-
-	length = strlen(string);
-	for (i = 0; i < length / 2; i++)
+	return (S->top + 1) == MAX;
+}
+int empty(Stack* S)
+{
+	return S->top == -1;
+}
+void push(Stack* S, char word)
+{
+	if (full(S))
 	{
-		if (string[i] != string[length - 1 - i])
-		{
-			j = 1;
-		}
-	}
-	if (j == 0)
-	{
-		printf("회문입니다");
+		printf("FULL");
 	}
 	else
 	{
-		printf("회문이 아닙니다");
+		S->top++;
+		S->word[S->top] = word;
 	}
 }
-
-void RemoveSpace(char* str)
+char pop(Stack* S)
 {
-	char* d = str;
-	do
+	int Temp;
+	if (empty(S))
 	{
-		while (isspace(*d))
+		printf("EMPTY");
+		return 0;
+	}
+	Temp = S->word[S->top];
+	S->top--;
+	return Temp;
+}
+int palindrome(char String[])
+{
+	Stack S;
+	int i;
+	init(&S);
+	for (i = 0; String[i] != 0; i++)
+	{
+		if (String[i] >= 65 && String[i] <= 90)
 		{
-			++d;
+			String[i] += 32;
 		}
-		*str++ = *d++;
-	} while (*str != '\0');
+		push(&S, String[i]);
+	}
+	for (i = 0; String[i] != 0; i++)
+	{
+		if (String[i] != pop(&S))
+		{
+			return 0;
+		}
+	}
+	return 1;
+}
+
+int main(void)
+{
+	printf("문자열을 입력하세요 : ");
+	char String[MAX];
+	gets(String);
+	if (palindrome(String))
+	{
+		printf("회문입니다.");
+	}
+	else
+	{
+		printf("회문이 아닙니다.");
+	}
+	return 0;
 }
