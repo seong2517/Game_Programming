@@ -9,8 +9,8 @@
   * 최고기록 표시
   * 시도 횟수 및 난이도 조절 기능
   * 말 모양 변경 기능
-  * 효과음(명중)    
-
+  * 효과음(명중)
+* * *    
 * 인트로 화면    
 <img src="./pic/lobby.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="lobby"></img><br/>
 * * *
