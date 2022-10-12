@@ -1,5 +1,5 @@
 ## 활쏘기 게임 개선
-- 보완 및 업그레이드
+* 보완 및 업그레이드
   - 게임 내 네모 테두리 부자연스러운 부분 수정
   - 말, 화살이 중첩되서 보이는 현상 수정
   - 목표물의 피격 범위 수정
@@ -11,11 +11,11 @@
   - 말 모양 변경 기능
   - 효과음(명중)
 * * *    
-* 인트로 화면    
+- 인트로 화면    
 <img src="./pic/lobby.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="lobby"></img><br/>
 * * *
-* 게임 내부 화면    
+- 게임 내부 화면    
 <img src="./pic/upgrade.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="upgrade"></img><br/>
 * * *
-* 게임 결과 화면    
+- 게임 결과 화면    
 <img src="./pic/result.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="result"></img><br/>
