@@ -13,10 +13,12 @@
 * * *    
 - 인트로 화면    
 <img src="./pic/o_lobby.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="o_lobby"></img>
+->
 <img src="./pic/lobby.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="lobby"></img><br/>
 * * *
 - 게임 내부 화면    
 <img src="./pic/error.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="error"></img>
+->
 <img src="./pic/upgrade.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="upgrade"></img><br/>
 * * *
 - 게임 결과 화면    
