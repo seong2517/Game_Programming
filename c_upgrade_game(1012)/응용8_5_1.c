@@ -15,7 +15,7 @@ int main(void)
 {
    int count=0, rnd;
    int r_count=0;
-   char *target="¡à";
+   char *target="â–¡";
    srand(time(NULL));
    intro_game();	
    do
@@ -34,11 +34,11 @@ int main(void)
 
 void intro_game(void)
 {
-	printf("¸»Å¸¸ç È­»ì½î±â\n\n");
-	printf("¸»À» Å¸°í ÀÌµ¿ÇÏ¸é¼­ \n");
-	printf("¸ñÇ¥¹°(¡à)À» ¸ÂÃß´Â °ÔÀÓÀÔ´Ï´Ù. \n");
-	printf("È­»ìÀº ½ºÆäÀÌ½ºÅ°·Î ¹ß»çÇÕ´Ï´Ù. \n\n");
-	printf("¾Æ¹«Å°³ª ´©¸£¸é ½ÃÀÛÇÕ´Ï´Ù. ");
+	printf("ë§íƒ€ë©° í™”ì‚´ì˜ê¸°\n\n");
+	printf("ë§ì„ íƒ€ê³  ì´ë™í•˜ë©´ì„œ \n");
+	printf("ëª©í‘œë¬¼(â–¡)ì„ ë§ì¶”ëŠ” ê²Œì„ì…ë‹ˆë‹¤. \n");
+	printf("í™”ì‚´ì€ ìŠ¤í˜ì´ìŠ¤í‚¤ë¡œ ë°œì‚¬í•©ë‹ˆë‹¤. \n\n");
+	printf("ì•„ë¬´í‚¤ë‚˜ ëˆ„ë¥´ë©´ ì‹œì‘í•©ë‹ˆë‹¤. ");
 	getch();
 
 }
@@ -79,19 +79,19 @@ void draw_rectangle(int r, int c)
 void display_text(int count, int r_count)
 {
 	gotoxy(46, 2);
-	printf("½ºÆäÀÌ½ºÅ°¸¦ ´©¸£¸é\n");
+	printf("ìŠ¤í˜ì´ìŠ¤í‚¤ë¥¼ ëˆ„ë¥´ë©´\n");
 	gotoxy(46, 3);
-	printf("È­»ìÀÌ ¹ß»çµË´Ï´Ù.\n");
+	printf("í™”ì‚´ì´ ë°œì‚¬ë©ë‹ˆë‹¤.\n");
 	gotoxy(46, 5);
-	printf("È½¼ö : %d", count);
+	printf("íšŸìˆ˜ : %d", count);
 	gotoxy(46, 6);
-	printf("¼º°ø : %d", r_count);
+	printf("ì„±ê³µ : %d", r_count);
 }
 
 void game_control(int* r_c, int rnd)
 {
 	int i=1, k=1, y;
-	char *horse="¡ã", chr;
+	char *horse="â–²", chr;
 	do
 	{
 		i+=k;
@@ -109,21 +109,21 @@ void game_control(int* r_c, int rnd)
 		{
 			y-=1;
 			gotoxy(i+1, y);
-			printf("¡è");
+			printf("â†‘");
 			Sleep(50);
 			printf("\b  ");
 		}
 		if ((rnd<=i) && (i<=(rnd+1)))
 		{
 			gotoxy(rnd, 2);
-			printf("¡Ù");
+			printf("â˜†");
 			gotoxy(46, 8);
-			printf("¸Â¾Ò½À´Ï´Ù. ");
+			printf("ë§ì•˜ìŠµë‹ˆë‹¤. ");
 			Sleep(50);
 			*r_c=*r_c+1;
 		}
 		gotoxy(1, 24);
-		printf("¾Æ¹«Å°³ª ´©¸£¸é ´ÙÀ½ ÁøÇà...");
+		printf("ì•„ë¬´í‚¤ë‚˜ ëˆ„ë¥´ë©´ ë‹¤ìŒ ì§„í–‰...");
 		getch();
 	}
 }
