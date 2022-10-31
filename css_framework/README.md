@@ -3,7 +3,7 @@
 >[bulma](https://bulma.io/)   
 >[tachyons](http://tachyons.io/)
 
- * **bootstrap : [Buttons](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_button_styles&stacked=h)**
+ * **bootstrap : [Buttons](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_button_styles&stacked=h)**   
  <img src="./pic/o_lobby.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="o_lobby"></img>
      ```html
         <ul>
@@ -21,7 +21,7 @@
             </li>
         </ul>
     ```
- * **bulma : [Notification](https://bulma.io/documentation/elements/notification/)**
+ * **bulma : [Notification](https://bulma.io/documentation/elements/notification/)**   
  <img src="./pic/o_lobby.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="o_lobby"></img>
     ```html
        <body class="notification is-warning is-light">
@@ -31,7 +31,7 @@
        </body>
     ```
  
- * **tachyons : [Profile Card](http://tachyons.io/components/cards/profile-card/index.html)**
+ * **tachyons : [Profile Card](http://tachyons.io/components/cards/profile-card/index.html)**   
  <img src="./pic/o_lobby.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="o_lobby"></img>
      ```html
         <section class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" id="my_info">
