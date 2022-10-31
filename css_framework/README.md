@@ -1,10 +1,12 @@
 # CSS Framework
+
+### framework 사용
 >[bootstrap](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)   
 >[bulma](https://bulma.io/)   
 >[tachyons](http://tachyons.io/)
 
  * **bootstrap : [Buttons](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_button_styles&stacked=h)**   
- <img src="./pic/bootstrap.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="o_lobby"></img>
+ <img src="./pic/bootstrap.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="bootstrap"></img>
      ```html
         <ul>
             <li>
@@ -22,7 +24,7 @@
         </ul>
     ```
  * **bulma : [Notification](https://bulma.io/documentation/elements/notification/)**   
- <img src="./pic/bulma_tachyons.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="o_lobby"></img>
+ <img src="./pic/bulma_tachyons.png" width="500px" height="300px" title="px(픽셀) 크기 설정" alt="bulma"></img>
     ```html
        <body class="notification is-warning is-light">
            ...
@@ -32,7 +34,7 @@
     ```
  
  * **tachyons : [Profile Card](http://tachyons.io/components/cards/profile-card/index.html)**   
- <img src="./pic/bulma_tachyons.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="o_lobby"></img>
+ <img src="./pic/bulma_tachyons.png" width="500px" height="300px" title="px(픽셀) 크기 설정" alt="tachyons"></img>
      ```html
         <section class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" id="my_info">
             <h2>My info</h2>
