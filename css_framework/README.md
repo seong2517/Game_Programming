@@ -58,5 +58,5 @@
         </section>
      ```
 
-> [github.io 링크](https://seong2517.github.io/Game_Programming/)   
+> [github.io 링크](https://seong2517.github.io/)   
 > [netlify 링크]()
