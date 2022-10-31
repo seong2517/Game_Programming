@@ -23,7 +23,7 @@
             </li>
         </ul>
     ```
- * **[bulma : Notification](https://bulma.io/documentation/elements/notification/) => <body> 색상 변경**   
+ * **[bulma : Notification](https://bulma.io/documentation/elements/notification/) => body 색상 변경**   
  <img src="./pic/bulma.png" width="1000px" height="400px" title="px(픽셀) 크기 설정" alt="bulma"></img>
     ```html
        <body class="notification is-warning is-light">
