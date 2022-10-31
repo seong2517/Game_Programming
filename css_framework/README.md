@@ -1,11 +1,11 @@
 # CSS Framework
 
-### framework 사용
+### 사용한 framework 사이트
 >[bootstrap](https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp)   
 >[bulma](https://bulma.io/)   
 >[tachyons](http://tachyons.io/)
 
- * **bootstrap : [Buttons](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_button_styles&stacked=h) : 버튼 변경**   
+ * **[bootstrap : Buttons](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_button_styles&stacked=h) => 버튼 모양 및 색상 변경**   
  <img src="./pic/bootstrap.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="bootstrap"></img>
      ```html
         <ul>
@@ -23,7 +23,7 @@
             </li>
         </ul>
     ```
- * **bulma : [Notification](https://bulma.io/documentation/elements/notification/) : body 변경**   
+ * **[bulma : Notification](https://bulma.io/documentation/elements/notification/) => <body> 색상 변경**   
  <img src="./pic/bulma.png" width="1000px" height="400px" title="px(픽셀) 크기 설정" alt="bulma"></img>
     ```html
        <body class="notification is-warning is-light">
@@ -33,7 +33,7 @@
        </body>
     ```
  
- * **tachyons : [Profile Card](http://tachyons.io/components/cards/profile-card/index.html) : 프로필 변경**   
+ * **[tachyons : Profile Card](http://tachyons.io/components/cards/profile-card/index.html) => 프로필 모양 및 형태 변경**   
  <img src="./pic/tachyons.png" width="1000px" height="400px" title="px(픽셀) 크기 설정" alt="tachyons"></img>
      ```html
         <section class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" id="my_info">
@@ -63,5 +63,6 @@
         </section>
      ```
 
-> [github.io 링크](https://seong2517.github.io/Game_Programming/)   
-> [netlify 링크](https://stalwart-bublanina-454900.netlify.app)
+### 호스팅 주소
+> [github.io](https://seong2517.github.io/Game_Programming/)   
+> [netlify](https://stalwart-bublanina-454900.netlify.app)
