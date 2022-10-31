@@ -34,7 +34,7 @@
     ```
  
  * **[tachyons : Profile Card](http://tachyons.io/components/cards/profile-card/index.html) => 프로필 모양 및 형태 변경**   
- <img src="./pic/tachyons.png" width="1000px" height="400px" title="px(픽셀) 크기 설정" alt="tachyons"></img>
+ <img src="./pic/tachyons.png" width="1000px" height="300px" title="px(픽셀) 크기 설정" alt="tachyons"></img>
      ```html
         <section class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10" id="my_info">
             <h2>My info</h2>
