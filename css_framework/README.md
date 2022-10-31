@@ -62,4 +62,4 @@
      ```
 
 > [github.io 링크](https://seong2517.github.io/Game_Programming/)   
-> [netlify 링크](stalwart-bublanina-454900.netlify.app)
+> [netlify 링크](https://stalwart-bublanina-454900.netlify.app)
