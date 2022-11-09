@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <style>
+    .chart div {
+      font: 10px sans-serif;
+      background-color: steelblue;
+      text-align: right;
+      padding: 3px;
+      margin: 1px;
+      color: white;
+    }
+  </style>
+  <body style="height: 100%; margin: 0">
+    <div id="container" style="height: 50%"></div>
+    <br />
+    <div class="chart">대한민국 연령대별 인구 비중</div>
+    <br />
+    <canvas id="myChart" style="width: 100%; max-width: 1000px"></canvas>
+
+    <script
+      type="text/javascript"
+      src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://d3js.org/d3.v3.js"></script>
+
+    <script type="text/javascript">
+      var dom = document.getElementById("container");
+      var myChart = echarts.init(dom, null, {
+        renderer: "canvas",
+        useDirtyRect: false,
+      });
+      var app = {};
+
+      var option;
+
+      option = {
+        title: {
+          text: "2011~2020년 대한민국의 연 강수량",
+        },
+        xAxis: {
+          type: "category",
+          data: ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020",],
+        },
+        yAxis: {
+          type: "value",
+        },
+        series: [
+          {
+            data: [1623, 1479, 1163, 1174, 949, 1273, 968, 1387, 1172, 1591],
+            type: "line",
+          },
+        ],
+      };
+
+      if (option && typeof option === "object") {
+        myChart.setOption(option);
+      }
+
+      window.addEventListener("resize", myChart.resize);
+    </script>
+
+    <script>
+      var xValues = ["10대 미만","10대","20대","30대","40대","50대","60대","70대 이상"];
+      var yValues = [7.5, 9.2, 13.1, 13.1, 15.9, 16.6, 13.5, 11.1];
+      var barColors = ["#ff2400","#ffce00","#86ff00","#7dd9ce","#53afc8","#907dd9","#d1b448","#266576"];
+
+      new Chart("myChart", {
+        type: "pie",
+        data: {
+          labels: xValues,
+          datasets: [
+            {
+              backgroundColor: barColors,
+              data: yValues,
+            },
+          ],
+        },
+        options: {
+          title: {
+            display: true,
+            text: "대한민국 연령대별 인구 비중",
+          },
+        },
+      });
+    </script>
+
+    <script>
+      var data = [7.5, 6.2, 13.1, 15.9, 16.6, 13.5, 11.1];
+      d3.select(".chart")
+        .selectAll("div")
+        .data(data)
+        .enter()
+        .append("div")
+        .style("width", function (d) {
+          return d * 50 + "px";
+        })
+        .text(function (d) {
+          return d + "%";
+        });
+    </script>
+  </body>
+</html>
