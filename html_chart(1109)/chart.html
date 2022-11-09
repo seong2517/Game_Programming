@@ -20,10 +20,7 @@
     <br />
     <canvas id="myChart" style="width: 100%; max-width: 1000px"></canvas>
 
-    <script
-      type="text/javascript"
-      src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"
-    ></script>
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <script src="https://d3js.org/d3.v3.js"></script>
 
@@ -38,16 +35,12 @@
       var option;
 
       option = {
-        title: {
-          text: "2011~2020년 대한민국의 연 강수량",
-        },
+        title: { text: "2011~2020년 대한민국의 연 강수량" },
         xAxis: {
           type: "category",
           data: ["2011","2012","2013","2014","2015","2016","2017","2018","2019","2020",],
         },
-        yAxis: {
-          type: "value",
-        },
+        yAxis: { type: "value", },
         series: [
           {
             data: [1623, 1479, 1163, 1174, 949, 1273, 968, 1387, 1172, 1591],
