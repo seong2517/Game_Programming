@@ -34,5 +34,4 @@
           return d + "%";
         });
 ### 호스팅 주소
-> [github.io](https://seong2517.github.io/Game_Programming/)   
 > [netlify](https://stalwart-bublanina-454900.netlify.app)
