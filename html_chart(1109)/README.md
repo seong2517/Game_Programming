@@ -34,4 +34,4 @@
           return d + "%";
         });
 ### 호스팅 주소
-> [netlify](https://stalwart-bublanina-454900.netlify.app)
+> [netlify](https://amazing-dusk-45e341.netlify.app/)
