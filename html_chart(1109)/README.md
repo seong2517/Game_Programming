@@ -25,7 +25,7 @@
            series: [{data: [1623, 1479, 1163, 1174, 949, 1273, 968, 1387, 1172, 1591],type: "line"}],
   ```
  * **[D3.js](https://d3js.org/) : 세로막대형 차트로 제작(2021년 대한민국 연령대별 인구 비중)**   
-   ```html
+   ```js
       d3.select(".chart")
         .selectAll("div")
         .data(data)
