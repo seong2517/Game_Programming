@@ -13,7 +13,7 @@
   - 타이머 추가
 * * *    
 - 인트로 화면    
-<img src="./pic/u_lobby.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="o_lobby"></img><br/>
+<img src="./pic/u_lobby.png" width="600px" height="300px" title="px(픽셀) 크기 설정" alt="o_lobby"></img><br/>
 * * *
 - 게임 내부 화면    
 <img src="./pic/원본게임사진.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="original"></img>
@@ -21,7 +21,7 @@
 <img src="./pic/u_pic.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="upgrade"></img><br/>
 * * *
 - 게임 결과 화면    
-<img src="./pic/u_result.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="result"></img><br/>      
+<img src="./pic/u_result.png" width="600px" height="300px" title="px(픽셀) 크기 설정" alt="result"></img><br/>      
 
 ### 호스팅 주소
 > [github.io](https://seong2517.github.io/Game_Programming/)   
