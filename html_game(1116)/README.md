@@ -30,5 +30,5 @@
 - 게임 결과 화면    
 <img src="./pic/u_result.png" width="600px" height="300px" title="px(픽셀) 크기 설정" alt="result"></img><br/>      
 
-### 호스팅 주소
-> [netlify](https://remarkable-marzipan-6bb041.netlify.app)
+### 호스팅
+> [게임 체험하기](https://remarkable-marzipan-6bb041.netlify.app)
