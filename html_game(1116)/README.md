@@ -23,4 +23,8 @@
 <img src="./pic/u_pic.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="upgrade"></img><br/>
 * * *
 - 게임 결과 화면    
-<img src="./pic/result.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="result"></img><br/>
+<img src="./pic/result.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="result"></img><br/>      
+
+### 호스팅 주소
+> [github.io](https://seong2517.github.io/Game_Programming/)   
+> [netlify](https://stalwart-bublanina-454900.netlify.app)
