@@ -18,7 +18,7 @@
 <img src="./pic/lobby.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="lobby"></img><br/>
 * * *
 - 게임 내부 화면    
-<img src="./pic/원본게임.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="original"></img>
+<img src="./pic/원본게임사진.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="original"></img>
 --->
 <img src="./pic/u_pic.png" width="400px" height="300px" title="px(픽셀) 크기 설정" alt="upgrade"></img><br/>
 * * *
