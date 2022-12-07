@@ -19,7 +19,7 @@
   - 로비, 게임오버 화면(Scene) 추가
 * * *    
 - 로비 화면    
-<img src="./pic/lobby.png" width="500px" height="500px" title="px(픽셀) 크기 설정" alt="lobby"></img><br/>
+<img src="./pic/lobby.png" width="400px" height="500px" title="px(픽셀) 크기 설정" alt="lobby"></img><br/>
 * * *
 - 게임 내부 화면    
 <img src="./pic/o_game_display.png" width="400px" height="500px" title="px(픽셀) 크기 설정" alt="original"></img>
@@ -27,4 +27,4 @@
 <img src="./pic/u_game_display.png" width="400px" height="500px" title="px(픽셀) 크기 설정" alt="upgrade"></img><br/>
 * * *
 - 게임오버 화면    
-<img src="./pic/gameover.png" width="500px" height="500px" title="px(픽셀) 크기 설정" alt="gameover"></img><br/>      
+<img src="./pic/gameover.png" width="400px" height="500px" title="px(픽셀) 크기 설정" alt="gameover"></img><br/>      
